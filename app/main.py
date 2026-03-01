@@ -10,11 +10,10 @@ class Animal:
         self._health = health
         self.hidden = hidden
 
+
 class Herbivore(Animal):
 
-    
-    def hide(self: Animal) -> None:
-        self.hidden = not self.hidden
+    def hide(self: Animal) -> None:self.hidden = not self.hidden
 
 
 class Carnivore(Animal):
