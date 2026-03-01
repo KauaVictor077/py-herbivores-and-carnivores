@@ -1,1 +1,5 @@
-# write your code here
+class Animal:
+    alive: list["Animal"] = []
+
+    def __init__(
+            self,
